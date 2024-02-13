@@ -1,0 +1,6 @@
+ruamel.yaml==0.17.21
+sqlalchemy==2.0.7
+pytz
+HASS-data-detective
+pandas
+numpy
