@@ -2,18 +2,18 @@
 """
 Run mqtt broker on localhost: sudo apt-get install mosquitto mosquitto-clients
 
-Example run: python3 mqtt-all.py --broker 192.168.1.164 --topic enviro --username xxx --password xxxx
+Example run: python3 mqtt-all.py --broker 192.168.1.164 
+--topic enviro --username xxx --password xxxx
 """
 
 import argparse
 import time
 import ssl
 
-from subprocess import PIPE, Popen, check_output
+from subprocess import check_output
 import json
 
 import paho.mqtt.client as mqtt
-import paho.mqtt.publish as publish
 
 import automationhat
 
